@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body onload="readall()">
+    <center><h1> Create User Name </h1></center>
+    <div class="container">
+        <div class="form-container"> 
+            <form class="create-form">
+                <input type="text" class="name" placeholder="Enter The Name">
+                <input type="email" class="email" placeholder="Enter The Email">
+                
+                <button type="button" onclick="add()">Create </button> 
+        
+                </form>
+                <br>
+                <form class="update-form">
+                    <input type="text" hidden class="id">
+                    <input type="text" class="uname">
+                <input type="email" class="uemail">
+
+                <button type="button" onclick="update()">Update </button>
+                    </form>
+                    <br>
+                    <div class="add">
+                        <button onclick="create()"> Add + </button>
+                        </div>
+                    <table class="table-class">
+                        <thead>
+                            <th> Name </th>
+                            <th> Email </th>
+                            <th> Action </th>
+                            </thead>
+                            <tbody class="table-data">
+                            <td> </td>
+                            </tbody>
+                        </table>
+            <script src="./index.js"> </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    background-color: blueviolet;
+}
+.container{
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    
+}
+
+.create-form input{
+    border-radius: 50px;
+    height: 30px;
+    padding: 0px 5px 0px 20px;
+}
+
+.update-form input{
+    border-radius: 50px;
+    height: 30px;
+    padding: 0px 5px 0px 20px;
+    font-weight: bolder;
+    
+}
+
+button{
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-width: 10px;
+}
+
+.table-class th{
+      width: 300px;
+      margin-top: 50px;
+      text-align: center;
+      margin:20px 300px 0px 100px;
+      border-color: black;
+      border-width: 1px;
+      border-style: solid;
+}
+
+.table-data td{
+    text-align: center;
+    border-color: black;
+      border-width: 1px;
+      border-style: solid;
+}
+
+.update-form, .create-form{
+    display: none;
+} 
